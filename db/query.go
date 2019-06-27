@@ -229,27 +229,27 @@ func IntRange(intFrom interface{}, expr map[string]interface{}, src *Col, result
 		}
 	}
 	// Figure out the range ("from" value & "to" value)
-	from, to := int(0), int(0)
+	from, to := int64(0), int64(0)
 	if floatFrom, ok := intFrom.(float64); ok {
-		from = int(floatFrom)
-	} else if _, ok := intFrom.(int); ok {
-		from = intFrom.(int)
+		from = int64(floatFrom)
+	} else if _, ok := intFrom.(int64); ok {
+		from = intFrom.(int64)
 	} else {
 		return dberr.New(dberr.ErrorExpectingInt, "int-from", from)
 	}
 	if intTo, ok := expr["int-to"]; ok {
 		if floatTo, ok := intTo.(float64); ok {
-			to = int(floatTo)
-		} else if _, ok := intTo.(int); ok {
-			to = intTo.(int)
+			to = int64(floatTo)
+		} else if _, ok := intTo.(int64); ok {
+			to = intTo.(int64)
 		} else {
 			return dberr.New(dberr.ErrorExpectingInt, "int-to", to)
 		}
 	} else if intTo, ok := expr["int to"]; ok {
 		if floatTo, ok := intTo.(float64); ok {
-			to = int(floatTo)
-		} else if _, ok := intTo.(int); ok {
-			to = intTo.(int)
+			to = int64(floatTo)
+		} else if _, ok := intTo.(int64); ok {
+			to = intTo.(int64)
 		} else {
 			return dberr.New(dberr.ErrorExpectingInt, "int to", to)
 		}
