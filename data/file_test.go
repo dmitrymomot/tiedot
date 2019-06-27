@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"bou.ke/monkey"
-	"github.com/HouzuoGuo/tiedot/gommap"
+	"github.com/dmitrymomot/tiedot/gommap"
 )
 
 const tmp = "/tmp/tiedot_test_file"

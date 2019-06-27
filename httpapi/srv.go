@@ -23,8 +23,8 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/HouzuoGuo/tiedot/db"
-	"github.com/HouzuoGuo/tiedot/tdlog"
+	"github.com/dmitrymomot/tiedot/db"
+	"github.com/dmitrymomot/tiedot/tdlog"
 	"github.com/dgrijalva/jwt-go"
 )
 

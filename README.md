@@ -3,10 +3,10 @@
 <p align="center">
 <a href="https://travis-ci.org/HouzuoGuo/tiedot.svg?branch=master"><img src="https://travis-ci.org/HouzuoGuo/tiedot.svg?branch=master" alt="Build Status"></a>
     <a href="https://codecov.io/gh/HouzuoGuo/tiedot"><img src="https://codecov.io/gh/HouzuoGuo/tiedot/branch/master/graph/badge.svg" alt="codecov"></a>
-      <a href="https://godoc.org/github.com/HouzuoGuo/tiedot"><img src="https://godoc.org/github.com/HouzuoGuo/tiedot?status.svg" alt="GoDoc"></a> 
+      <a href="https://godoc.org/github.com/dmitrymomot/tiedot"><img src="https://godoc.org/github.com/dmitrymomot/tiedot?status.svg" alt="GoDoc"></a>
  </p>
- 
-<p align="center"> <a href="https://github.com/HouzuoGuo/tiedot/wiki"><strong>Documentation</strong></a> </p>
+
+<p align="center"> <a href="https://github.com/dmitrymomot/tiedot/wiki"><strong>Documentation</strong></a> </p>
 
 Keywords: Golang, go, document database, NoSQL, JSON
 
@@ -24,7 +24,7 @@ tiedot has fault-tolerant data structures that put your data safety *first*, whi
 
 tiedot is distributed under the [Simplified BSD license][Contributors and License].
 
-The newest version 3.4 comes with general performance and compatibility improvements. Find out more in [releases](https://github.com/HouzuoGuo/tiedot/releases).
+The newest version 3.4 comes with general performance and compatibility improvements. Find out more in [releases](https://github.com/dmitrymomot/tiedot/releases).
 
 ### Running in Docker
 Run tiedot with help from [docker](https://docs.docker.com/engine/installation/) and [docker compose](https://docs.docker.com/compose/install/):
@@ -58,19 +58,19 @@ Let me know what you think about tiedot, I'd love to hear from you! Please [Emai
 The Go gopher was designed by Renee French. (http://reneefrench.blogspot.com/).
 The Go gopher is covered by the [Creative Commons Attribution 3.0][Creative Commons Attribution 3.0] license.
 
-[Tutorial: tiedot in 10 minutes]: https://github.com/HouzuoGuo/tiedot/wiki/Tutorial
-[API reference and embedded usage]: https://github.com/HouzuoGuo/tiedot/wiki/API-reference-and-embedded-usage
-[Version History]: https://github.com/HouzuoGuo/tiedot/wiki/Version-History
-[Data structures]: https://github.com/HouzuoGuo/tiedot/wiki/Data-structures
-[Query processor and index]: https://github.com/HouzuoGuo/tiedot/wiki/Query-processor-and-index
-[Concurrency and networking]: https://github.com/HouzuoGuo/tiedot/wiki/Concurrency-and-networking
-[Performance tuning and benchmarks]: https://github.com/HouzuoGuo/tiedot/wiki/Performance-tuning-and-benchmarks
-[Limitations]: https://github.com/HouzuoGuo/tiedot/wiki/Limitations
+[Tutorial: tiedot in 10 minutes]: https://github.com/dmitrymomot/tiedot/wiki/Tutorial
+[API reference and embedded usage]: https://github.com/dmitrymomot/tiedot/wiki/API-reference-and-embedded-usage
+[Version History]: https://github.com/dmitrymomot/tiedot/wiki/Version-History
+[Data structures]: https://github.com/dmitrymomot/tiedot/wiki/Data-structures
+[Query processor and index]: https://github.com/dmitrymomot/tiedot/wiki/Query-processor-and-index
+[Concurrency and networking]: https://github.com/dmitrymomot/tiedot/wiki/Concurrency-and-networking
+[Performance tuning and benchmarks]: https://github.com/dmitrymomot/tiedot/wiki/Performance-tuning-and-benchmarks
+[Limitations]: https://github.com/dmitrymomot/tiedot/wiki/Limitations
 [Email me]: mailto:guohouzuo@gmail.com
 [Twitter]: https://twitter.com/hzguo
 [blog]: http://allstarnix.blogspot.com.au
-[Issues]: https://github.com/HouzuoGuo/tiedot/issues
-[Contributors and License]: https://github.com/HouzuoGuo/tiedot/wiki/Contributors-and-License
+[Issues]: https://github.com/dmitrymomot/tiedot/issues
+[Contributors and License]: https://github.com/dmitrymomot/tiedot/wiki/Contributors-and-License
 [Creative Commons Attribution 3.0]: http://creativecommons.org/licenses/by/3.0
 
 

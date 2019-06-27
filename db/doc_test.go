@@ -18,8 +18,8 @@ import (
 	"reflect"
 
 	"bou.ke/monkey"
-	"github.com/HouzuoGuo/tiedot/data"
-	"github.com/HouzuoGuo/tiedot/dberr"
+	"github.com/dmitrymomot/tiedot/data"
+	"github.com/dmitrymomot/tiedot/dberr"
 )
 
 var (

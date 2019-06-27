@@ -1,5 +1,5 @@
 language: go
-go_import_path: github.com/HouzuoGuo/tiedot
+go_import_path: github.com/dmitrymomot/tiedot
 sudo: false
 go:
   - 1.11
@@ -14,7 +14,7 @@ install:
   - go get bou.ke/monkey
   - go get github.com/pkg/errors
 script:
- - go build
- - bash test-and-coverage-report.sh
+  - go build
+  - bash test-and-coverage-report.sh
 after_success:
- - bash <(curl -s https://codecov.io/bash)
+  - bash <(curl -s https://codecov.io/bash)

@@ -10,7 +10,7 @@ import (
 	"strings"
 
 	"bou.ke/monkey"
-	"github.com/HouzuoGuo/tiedot/dberr"
+	"github.com/dmitrymomot/tiedot/dberr"
 	"github.com/pkg/errors"
 )
 

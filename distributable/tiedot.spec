@@ -17,7 +17,7 @@ Version:        3.3
 Release:        0
 License:        BSD-2-Clause
 Summary:        A NoSQL document database engine powered by Go
-# tiedot is developed at https://github.com/HouzuoGuo/tiedot
+# tiedot is developed at https://github.com/dmitrymomot/tiedot
 # however the distributable source archive is located at https://github.com/tiedot/tiedot
 Url:            https://github.com/HouzuoGuo/%{name}
 Source:         %{name}-%{version}.tar.gz

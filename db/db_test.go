@@ -16,7 +16,7 @@ import (
 	"testing"
 
 	"bou.ke/monkey"
-	"github.com/HouzuoGuo/tiedot/data"
+	"github.com/dmitrymomot/tiedot/data"
 	"github.com/pkg/errors"
 )
 

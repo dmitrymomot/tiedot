@@ -10,7 +10,7 @@ import (
 	"testing"
 
 	"bou.ke/monkey"
-	"github.com/HouzuoGuo/tiedot/db"
+	"github.com/dmitrymomot/tiedot/db"
 	"github.com/pkg/errors"
 )
 
