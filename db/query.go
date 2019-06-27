@@ -9,7 +9,6 @@ import (
 	"strings"
 
 	"github.com/dmitrymomot/tiedot/dberr"
-	"github.com/dmitrymomot/tiedot/tdlog"
 )
 
 // Calculate union of sub-query results.
@@ -256,9 +255,9 @@ func IntRange(intFrom interface{}, expr map[string]interface{}, src *Col, result
 	} else {
 		return dberr.New(dberr.ErrorMissing, "int-to")
 	}
-	if to > from && to-from > 1000 || from > to && from-to > 1000 {
-		tdlog.CritNoRepeat("Query %v involves index lookup on more than 1000 values, which can be very inefficient", expr)
-	}
+	// if to > from && to-from > 1000 || from > to && from-to > 1000 {
+	// 	tdlog.CritNoRepeat("Query %v involves index lookup on more than 1000 values, which can be very inefficient", expr)
+	// }
 	counter := int(0) // Number of results already collected
 	htPath := strings.Join(vecPath, ",")
 	if _, indexScan := src.indexPaths[htPath]; !indexScan {
